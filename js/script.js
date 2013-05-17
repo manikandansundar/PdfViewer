@@ -6,7 +6,7 @@ function onDeviceReady() {
     cb.onLocationChange = function(loc){ root.locChanged(loc); };
     cb.onClose = function(){root.onCloseBrowser(); };
     cb.onOpenExternal = function(){root.onOpenExternal(); };
-    cb.showWebPage("WebResources/pdf/GL_Styleguide_v5.pdf");
+    cb.showWebPage("http://cdn.phpreferencebook.com/wp-content/uploads/2008/12/php_reference_-_beginner_to_intermediate_php5.pdf");
 
     }
 }
